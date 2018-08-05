@@ -1,0 +1,35 @@
+===============================================
+Semester 1: 16 credits
+-----------------------------------------------
+ECE 2504 Intro Computer Engr
+ALS 1004 Ag, Arts and Society
+ECE 2574 Data Structures and Algorithms
+STAT 4714 Probability and Statistics for ECE
+ECE 2014 Engr Professionalism ECE
+ECE 2004 Electric Circuit Analysis
+ECE 2074 Electric Circuit Analysis Lab
+===============================================
+Semester 2: 16 credits
+-----------------------------------------------
+ISE 2014 Engineering Economy
+ECE 3574 Applied Software Design
+ECE 4424 Machine Learning
+ECE 2274 Elctrnc Netwks Lab I
+ECE 2704 Signals and Systems
+ECE 2534 Microcontroller Interfacing
+===============================================
+Semester 3: 17 credits
+-----------------------------------------------
+ECE 2204 Electronics
+ECE 2524 Intro to Unix for Engineers
+ECE 4554 Intro to Computer Vision
+ECE 4524 Artificial Intelligence and Engineering Applications
+ECE 4534 Embedded System Design
+ECE 4525 Video Game Design and Programming
+===============================================
+Semester 4: 13 credits
+-----------------------------------------------
+ECE 4580 Digital Image Processing
+ENGL 3764 Technical Writing
+ECE 3544 Digital Design I
+ECE 4526 Video Game Design and Programming II

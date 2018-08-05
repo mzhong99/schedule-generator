@@ -1,0 +1,358 @@
+{
+  "CHEM 1035": {
+    "credits": 3,
+    "prerequisites": [],
+    "human_name": "General Chemistry"
+  },
+  "CHEM 1045": {
+    "credits": 1,
+    "prerequisites": [],
+    "human_name": "General Chemistry Lab"
+  },
+  "PHYS 2305": {
+    "credits": 4,
+    "prerequisites": ["MATH 1225"],
+    "human_name": "Foundations of Physics"
+  },
+  "PHYS 2306": {
+    "credits": 4,
+    "prerequisites": [
+      "MATH 1226",
+      "PHYS 2305"
+    ],
+    "human_name": "Foundations of Physics"
+  },
+  "MATH 1225": {
+    "credits": 4,
+    "prerequisites": [],
+    "human_name": "Calculus of a Single Variable"
+  },
+  "MATH 1226": {
+    "credits": 4,
+    "prerequisites": [
+      "MATH 1225"
+    ],
+    "human_name": "Calculus of a Single Variable"
+  },
+  "MATH 2204": {
+    "credits": 3,
+    "prerequisites": [
+      "MATH 1226"
+    ],
+    "human_name": "Intro Multivariable Calculus"
+  },
+  "MATH 2534": {
+    "credits": 3,
+    "prerequisites": [
+      "CS 1114"
+    ],
+    "human_name": "Intro Discrete Math"
+  },
+  "MATH 2114": {
+    "credits": 3,
+    "prerequisites": [
+      "MATH 1225",
+      "MATH 1226"
+    ],
+    "human_name": "Introduction to Linear Algebra"
+  },
+  "MATH 2214": {
+    "credits": 3,
+    "prerequisites": [
+      "MATH 2114",
+      "MATH 1226"
+    ],
+    "human_name": "Intro Diff Equations"
+  },
+  "MATH 4564": {
+    "credits": 3,
+    "prerequisites": [
+      "MATH 2214"
+    ],
+    "human_name": "Operational Methods"
+  },
+  "ENGE 1215": {
+    "credits": 2,
+    "prerequisites": [],
+    "human_name": "Foundations of Engineering"
+  },
+  "ENGE 1216": {
+    "credits": 2,
+    "prerequisites": [
+      "ENGE 1215"
+    ],
+    "human_name": "Foundations of Engineering"
+  },
+  "MUS 1005": {
+    "credits": 3,
+    "prerequisites": [],
+    "human_name": "Music Theory and Fundamentals"
+  },
+  "PHIL 1304": {
+    "credits": 3,
+    "prerequisites": [],
+    "human_name": "Morality and Justice"
+  },
+  "HIST 1215": {
+    "credits": 3,
+    "prerequisites": [],
+    "human_name": "History of the Modern World"
+  },
+  "HIST 1216": {
+    "credits": 3,
+    "prerequisites": [
+      "HIST 1215"
+    ],
+    "human_name": "History of the Modern World"
+  },
+  "PSCI 1014": {
+    "credits": 3,
+    "prerequisites": [],
+    "human_name": "US Gov & Politics"
+  },
+  "ALS 1004": {
+    "credits": 1,
+    "prerequisites": [],
+    "human_name": "Ag, Arts and Society"
+  },
+  "ENGL 1105": {
+    "credits": 3,
+    "prerequisites": [],
+    "human_name": "First Year Writing"
+  },
+  "ENGL 1106": {
+    "credits": 3,
+    "prerequisites": [
+      "ENGL 1105"
+    ],
+    "human_name": "First Year Writing"
+  },
+  "ENGL 3764": {
+    "credits": 3,
+    "prerequisites": [
+      "ENGL 1106"
+    ],
+    "human_name": "Technical Writing"
+  },
+  "ESM 2104": {
+    "credits": 3,
+    "prerequisites": [
+      "MATH 2204"
+    ],
+    "human_name": "Statics"
+  },
+  "ESM 2204": {
+    "credits": 3,
+    "prerequisites": [
+      "ESM 2104",
+      "MATH 2204"
+    ],
+    "human_name": "Mechanics of Deformable Bodies"
+  },
+  "ESM 2304": {
+    "credits": 3,
+    "prerequisites": [
+      "ESM 2104",
+      "MATH 2214",
+      "MATH 2204"
+    ],
+    "human_name": "Mechanics of Deformable Bodies"
+  },
+  "AOE 2074": {
+    "credits": 3,
+    "prerequisites": [
+      "ENGE 1216"
+    ],
+    "human_name": "Computational Methods"
+  },
+  "AOE 2104": {
+    "credits": 3,
+    "prerequisites": [
+      "ENGE 1216",
+      "PHYS 2305"
+    ],
+    "human_name": "Intro Aerospace Engr & Perform"
+  },
+  "AOE 3094": {
+    "credits": 3,
+    "prerequisites": [
+      "CHEM 1035",
+      "ESM 2204",
+      "PHYS 2305"
+    ],
+    "human_name": "Materials for AOE"
+  },
+  "AOE 3104": {
+    "credits": 3,
+    "prerequisites": [
+      "ESM 2104",
+      "ESM 2304"
+    ],
+    "human_name": "Aircraft Performance"
+  },
+  "AOE 3014": {
+    "credits": 3,
+    "prerequisites": [
+      "AOE 2104",
+      "MATH 2214"
+    ],
+    "human_name": "Fluid Dynamics for AOE"
+  },
+  "AOE 3024": {
+    "credits": 3,
+    "prerequisites": [
+      "ESM 2104",
+      "ESM 2204"
+    ],
+    "human_name": "Thin-Walled Structures"
+  },
+  "AOE 3034": {
+    "credits": 3,
+    "prerequisites": [
+      "MATH 2214"
+    ],
+    "human_name": "System Dynamics and Control"
+  },
+  "AOE 4134": {
+    "credits": 3,
+    "prerequisites": [
+      "ESM 2304"
+    ],
+    "human_name": "Astromechanics"
+  },
+  "AOE 3054": {
+    "credits": 3,
+    "prerequisites": [
+      "AOE 3014",
+      "AOE 3024",
+      "AOE 3034"
+    ],
+    "human_name": "AOE Experimental Methods"
+  },
+  "AOE 3114": {
+    "credits": 3,
+    "prerequisites": [
+      "AOE 3014"
+    ],
+    "human_name": "Compressible Aerodynamics"
+  },
+  "AOE 3124": {
+    "credits": 3,
+    "prerequisites": [
+      "AOE 3024"
+    ],
+    "human_name": "Aerospace Structures"
+  },
+  "AOE 3134": {
+    "credits": 3,
+    "prerequisites": [
+      "AOE 3034"
+    ],
+    "human_name": "Stability and Control"
+  },
+  "AOE 3044": {
+    "credits": 3,
+    "prerequisites": [
+      "AOE 3014",
+      "MATH 4564"
+    ],
+    "human_name": "Boundary Layer Theory"
+  },
+  "AOE 4065": {
+    "credits": 3,
+    "prerequisites": [
+      "AOE 3054",
+      "AOE 3114",
+      "AOE 3124",
+      "AOE 3134"
+    ],
+    "human_name": "Aircraft Design"
+  },
+  "AOE 4154": {
+    "credits": 1,
+    "prerequisites": [
+      "AOE 3054",
+      "AOE 3114",
+      "AOE 3124"
+    ],
+    "human_name": "Aero Engr Lab"
+  },
+  "AOE 4234": {
+    "credits": 3,
+    "prerequisites": [
+      "AOE 3114"
+    ],
+    "human_name": "Aerospace Propulsion Systems"
+  },
+  "AOE 4084": {
+    "credits": 3,
+    "prerequisites": [
+      "MATH 2204"
+    ],
+    "human_name": "Engineering Design Optimization"
+  },
+  "AOE 4404": {
+    "credits": 3,
+    "prerequisites": [
+      "MATH 4564",
+      "AOE 2074"
+    ],
+    "human_name": "Applied Numeric Methods"
+  },
+  "AOE 4066": {
+    "credits": 3,
+    "prerequisites": [
+      "AOE 4065"
+    ],
+    "human_name": "Aircraft Design"
+  },
+  "CS 1114": {
+    "credits": 0,
+    "prerequisites": [],
+    "human_name": "Intro to Software Design"
+  },
+  "CS 2114": {
+    "credits": 0,
+    "prerequisites": [
+      "CS 1114"
+    ],
+    "human_name": "Softw Des & Data Structures"
+  },
+  "CS 2505": {
+    "credits": 3,
+    "prerequisites": [
+      "CS 2114"
+    ],
+    "human_name": "Intro Computer Organization"
+  },
+  "CS 3114": {
+    "credits": 3,
+    "prerequisites": [
+      "CS 2114",
+      "CS 2505",
+      "MATH 2534"
+    ],
+    "human_name": "Data Structures and Algorithms"
+  },
+  "CS 3824": {
+    "credits": 3,
+    "prerequisites": [
+      "CS 3114"
+    ],
+    "human_name": "Intro Comp Bio Bioinformatics"
+  },
+  "CS 3744": {
+    "credits": 3,
+    "prerequisites": [
+      "CS 3114"
+    ],
+    "human_name": "Intermediate Software Design"
+  },
+  "STAT 4714": {
+    "credits": 3,
+    "prerequisites": [
+      "MATH 2204"
+    ],
+    "human_name": "Probability and Statistics for ECE"
+  }
+}
