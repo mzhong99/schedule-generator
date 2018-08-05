@@ -1,5 +1,7 @@
 # schedule-generator
-Webscraping, Caching, and Analytical tools to generate study plans for majors in Virginia Tech
+Webscraping, Caching, and Analytical tools to generate study plans for majors in Virginia Tech!
+
+This set of script files can be used to generate a study plan for any major at Virginia Tech. The timetable_scrape.py file takes in a csv which contains the classes required for one student's major, and attempts to fetch the number of credits and prerequisites for each course and save this data into a json file. Since the webscraper is not always successful, manual revisions can be made to the json before the json is fed to the analyze_schedule.py, which generates a schedule based on the data inside the json. Additionally, the cache.py file allows the user to save the data for all their probed and manually-entered courses so that upon repeated use, the timetable_scrape.py script can also retrieve data from cache if it is unable to scrape https://banweb.banner.vt.edu/ssb/prod/HZSKVTSC.P_ProcRequest for the course data.
 
 The vt_timetable.py module is directly modified from https://github.com/kevincianfarini/pyvt/, which was given with the proper license:
 
