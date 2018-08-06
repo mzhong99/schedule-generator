@@ -41,37 +41,9 @@ The `timetable_scrape.py` then analyzes each class for their credits and prerequ
 [FAILED][EXCEPTION] Analyzed MATH 1225
 [SUCCESS] Analyzed MATH 1226
 [SUCCESS] Analyzed MATH 2204
-[SUCCESS] Analyzed MATH 2534
-[SUCCESS] Analyzed MATH 2114
-[SUCCESS] Analyzed MATH 2214
-[SUCCESS] Analyzed ENGE 1215
-[SUCCESS] Analyzed ENGE 1216
-[SUCCESS] Analyzed ESM 2104
-[FAILED][NO FETCH] Analyzed MUS 1005
-[FAILED][EXCEPTION] Analyzed PHIL 1304
-[FAILED][NO FETCH] Analyzed HIST 1215
-[FAILED][NO FETCH] Analyzed HIST 1216
-[SUCCESS] Analyzed PSCI 1014
-[SUCCESS] Analyzed ALS 1004
-[FAILED][NO FETCH] Analyzed STAT 4714
-[SUCCESS] Analyzed ENGL 3764
-[SUCCESS] Analyzed ISE 2014
-[SUCCESS] Analyzed ECE 2014
-[SUCCESS] Analyzed ECE 2704
-[SUCCESS] Analyzed ECE 2504
-[SUCCESS] Analyzed ECE 2004
-[SUCCESS] Analyzed ECE 2074
-[SUCCESS] Analyzed ECE 2204
-[SUCCESS] Analyzed ECE 2274
-[SUCCESS] Analyzed ECE 2704
-[SUCCESS] Analyzed ECE 1574
-[SUCCESS] Analyzed ECE 2574
-[SUCCESS] Analyzed ECE 3574
-[FAILED][EXCEPTION] Analyzed ECE 2534
-[SUCCESS] Analyzed ECE 2524
-[SUCCESS] Analyzed ECE 3544
-[FAILED][NO FETCH] Analyzed ECE 4534
-[FAILED][NO FETCH] Analyzed ECE 4525
+
+... (The rest has been edited for brevity)
+
 [FAILED][NO FETCH] Analyzed ECE 4526
 [SUCCESS] Analyzed ECE 4424
 [FAILED][NO FETCH] Analyzed ECE 4524
@@ -85,14 +57,9 @@ Exception Rate: 9.30232558139535%
 [SUCCESS][RETRIEVAL] Retrieved MATH 1225 from cache
 [SUCCESS][RETRIEVAL] Retrieved MUS 1005 from cache
 [SUCCESS][RETRIEVAL] Retrieved PHIL 1304 from cache
-[SUCCESS][RETRIEVAL] Retrieved HIST 1215 from cache
-[SUCCESS][RETRIEVAL] Retrieved HIST 1216 from cache
-[SUCCESS][RETRIEVAL] Retrieved STAT 4714 from cache
-[FAILED][RETRIEVAL][NO CACHE] Failed to retrieve ECE 2534 from cache
-[SUCCESS][RETRIEVAL] Retrieved ECE 4534 from cache
-[SUCCESS][RETRIEVAL] Retrieved ECE 4525 from cache
-[FAILED][RETRIEVAL][NO CACHE] Failed to retrieve ECE 4526 from cache
-[FAILED][RETRIEVAL][NO CACHE] Failed to retrieve ECE 4524 from cache
+
+... (The rest has been edited for brevity)
+
 [FAILED][RETRIEVAL][NO CACHE] Failed to retrieve ECE 4580 from cache
 Cache Retrieval Rate: 20.930232558139537%
 Analysis complete. Dumping...
