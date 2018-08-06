@@ -217,9 +217,9 @@ That's it! Now go compare it with your actual schedule and see just how much it 
 
 The `vt_timetable.py` is simply a module modified from Kefin Cianfarini's `py-vt` API. There is no need to manually run this script.
 
-Special thanks to Kevin Cianfarini, for his generously offered open-source API in python. Without his work, I would never have understood how to webscrape for classes on the timetable.
+Special thanks to Kevin Cianfarini, for his generously offered open-source API in Python. Without his work, I would never have understood how to webscrape for classes on the timetable.
 
-The vt_timetable.py module is directly modified from https://github.com/kevincianfarini/pyvt/, which was given with the proper license:
+The vt_timetable.py module is directly modified from https://github.com/kevincianfarini/pyvt/, which was obtained with the following license:
 
 The MIT License (MIT)
 
