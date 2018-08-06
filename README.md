@@ -211,7 +211,9 @@ ECE 4526 Video Game Design and Programming II
 
 That's it! Now go compare it with your actual schedule and see just how much it differs. Note: Corequisites, Major Restrictions, and Duplicate courses do not register well with this program. Use with care!
 
-## copyright and extras
+## copyright and extras (the vt_timetable.py)
+
+The `vt_timetable.py` is simply a module modified from Kefin Cianfarini's `py-vt` API. There is no need to manually run this script.
 
 Special thanks to Kevin Cianfarini, for his generously offered open-source API in python. Without his work, I would never have understood how to webscrape for classes on the timetable.
 
